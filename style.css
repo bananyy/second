@@ -82,7 +82,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #003049;
+    white-space: pre-line;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
+
 
 
 .heart {
