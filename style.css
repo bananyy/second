@@ -17,7 +17,7 @@ body {
 
 .valentines {
     position: relative;
-    top: 50px;
+    top: 80px;
     cursor: pointer;
     animation: up 3s linear infinite;
 }
