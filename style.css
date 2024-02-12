@@ -85,7 +85,14 @@ body {
     white-space: pre-line;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    width: 249px;
+    width: 208px;
+}
+
+/* Виправлення для телефонів і планшетів */
+@media screen and (max-width: 767px) {
+    .text {
+        width: auto;  /* Встановлює ширину тексту в автоматичний режим */
+    }
 }
 
 
